@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "DevsHunter",
+    "slug": "DevsHunter",
+    "privacy": "public",
+    "sdkVersion": "36.0.0",
+    "platforms": [
+      "android",
+      "web"
+    ],
+    "version": "1.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/bundle/android/drawable-hdpi/screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#4a2343"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "br.com.devshunter",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBrBsM-w5z_zzgbDJPkiMJ3p5wmX8s5gn4"
+        }
+      }
+    },
+    "description": ""
+  }
+}

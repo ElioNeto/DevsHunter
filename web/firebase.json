@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "public": "build",
+    "site": "devshunter",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
